@@ -18,6 +18,7 @@ h1 {
 }
 .section-two {
     height:100px;
+    width: 100%;
     display: flex;
     align-content: center;
     align-items: center;
@@ -25,6 +26,8 @@ h1 {
 h2 {
     text-transform: uppercase;
     font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-three {
@@ -59,5 +62,25 @@ li {
     background-color: #BFC1C1;
 }
 /*500px height for entire thing*/
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.blur {
+    color: transparent;
+    text-shadow: 0 0 1px rgba(0,0,0,0.9);
+}
 
 
