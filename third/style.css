@@ -1,0 +1,63 @@
+.container {
+    margin: 0 auto;
+    width: 25%;
+}
+
+.section-one {
+    background-color: #BFC1C1;
+    width: 100%;
+    height: 215px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.section-two {
+    height:100px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.section-three {
+    height: 250px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    height: 50px;
+}
+
+.black {
+    background-color: black;
+}
+.red {
+    background-color: red;
+}
+
+.light-blue{
+    background-color: deepskyblue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.light-grey {
+    background-color: #BFC1C1;
+}
+/*500px height for entire thing*/
+
+
