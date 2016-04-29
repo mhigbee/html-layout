@@ -9,16 +9,19 @@
     height: 33%;
     width: 100%;
     background-color: #BC4448;
+    overflow: auto;
 }
 
 .section-two {
     height: 33%;
     width: 100%;
+    overflow: auto;
 }
 
 .section-three {
     height: 33%;
     width: 100%;
+    overflow: auto;
 }
 ul {
     list-style: none;
